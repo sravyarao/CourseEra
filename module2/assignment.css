@@ -1,0 +1,123 @@
+*
+{
+    box-sizing: border-box;
+}
+
+
+
+html,body{
+    height:100%;
+    width:100%;
+    padding:0%;
+    overflow: hidden;
+}
+
+h1
+{
+    text-align: center;
+    font-family: cursive;
+    padding-bottom:5%;
+}
+
+section{
+    border:2px solid black;
+    float:left;
+    width:30%;
+    background-color: grey;
+    margin-left:2%;
+    position:relative;
+    
+}
+
+p{
+   
+    padding:11px;
+    padding-top:15px;
+    padding-bottom: 0;
+    margin-top:5%;
+    font-size:15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    
+
+}
+h3{
+    margin:0%;
+    padding:0%;
+    border:2px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    width:30%;
+    position:absolute;
+    right:0px;
+    text-align: center;
+}
+
+#h1
+{
+    background-color:peru;
+}
+
+#h2
+{
+    background-color:brown;
+}
+
+#h3
+{
+    background-color: palegoldenrod;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width:991px) {
+   
+    section{
+        margin-left:5%;
+    }
+   
+    #sec1 , #sec2{
+        
+        width:40%;
+        
+    }
+
+    #sec3
+    {
+        margin-top:4%;
+        width:85%;
+        clear:both;
+    }
+
+   #p1,#p2{
+       
+       padding:4%;
+       padding-top:6%;
+       margin-top:2%;
+
+   }
+
+   #p3
+   {
+       padding:2%;
+       margin-top: 2%;
+   }
+
+   #h3
+   {
+       width:20%;
+   }
+}
+
+@media only screen and (max-width:767px)
+{
+    html,body{
+        overflow-y: auto;
+    }
+    section{
+        clear:both;
+        width:60%;
+        margin-left: 21%;
+        margin-bottom: 4%;
+        
+    }
+}

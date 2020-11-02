@@ -23,18 +23,19 @@ section{
     border:2px solid black;
     float:left;
     width:30%;
+    
     background-color: grey;
-    margin-left:2%;
+    margin-left:25px;
     position:relative;
     
 }
 
 p{
    
-    padding:11px;
-    padding-top:15px;
-    padding-bottom: 0;
-    margin-top:5%;
+    padding:25px;
+    
+   
+    margin-top:15px;
     font-size:15px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
@@ -43,7 +44,7 @@ p{
 }
 h3{
     margin:0%;
-    padding:0%;
+    padding:5px;
     border:2px solid black;
     border-top: 0px;
     border-right: 0px;
@@ -79,6 +80,7 @@ h3{
         
         width:40%;
         
+        
     }
 
     #sec3
@@ -90,16 +92,13 @@ h3{
 
    #p1,#p2{
        
-       padding:4%;
-       padding-top:6%;
-       margin-top:2%;
-
+       padding:25px;
    }
 
    #p3
    {
-       padding:2%;
-       margin-top: 2%;
+       padding:25px;
+       margin-top:2;
    }
 
    #h3

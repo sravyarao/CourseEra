@@ -15,7 +15,7 @@ nav{
 
 a{
     font-weight: bolder;
-    font-family:fantasy;
+    font-family:cursive;
 }
 
 
@@ -28,6 +28,12 @@ h1{
 h4{
     font-weight: bolder;
     font-family:cursive;
+}
+
+ul > li
+{
+    text-align:center;
+    border:1px solid white;
 }
 
 p{

@@ -22,6 +22,10 @@ ul, li{
     visibility: hidden;
 }
 
+#divpara{
+      visibility: hidden;
+}
+
 button{
     visibility: hidden;
 }
@@ -35,7 +39,10 @@ visibility: visible;
  ul{
   visibility:visible;
  }
-
+#divpara{
+    visibility: visible;
+    }
+    
   ul > li{
       visibility: visible;
     text-align:center;

@@ -25,13 +25,16 @@ button{
     visibility: hidden;
 }
 
-#divpara{
-      visibility: hidden;
-}
-
-ul, li{
+  ul, li{
     visibility: hidden;
 }
+    
+     ul > li{
+      visibility: hidden;
+    text-align:center;
+    border-bottom:1px solid white;
+}
+
 }
 
 @media only screen and (max-width: 767px)
@@ -41,9 +44,9 @@ ul{
   visibility:visible;
  }
     
-#divpara{
-    visibility: visible;
-    }
+    
+    
+
     
   button{
 visibility: visible;

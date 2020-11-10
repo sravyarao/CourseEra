@@ -18,7 +18,10 @@ a{
     font-family:fantasy;
 }
 
-ul, li{
+@media only screen and (min-width: 768px and max-width:992px)
+{
+
+button{
     visibility: hidden;
 }
 
@@ -26,23 +29,25 @@ ul, li{
       visibility: hidden;
 }
 
-button{
+ul, li{
     visibility: hidden;
+}
 }
 
 @media only screen and (max-width: 767px)
 {
-  button{
-visibility: visible;
-  }
-
- ul{
+    
+ul{
   visibility:visible;
  }
+    
 #divpara{
     visibility: visible;
     }
     
+  button{
+visibility: visible;
+  }
   ul > li{
       visibility: visible;
     text-align:center;

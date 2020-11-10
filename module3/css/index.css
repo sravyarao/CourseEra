@@ -1,0 +1,58 @@
+#para{
+    border:1px solid black;
+    background-color: grey;
+    margin-top:30px;
+    padding:20px;
+    font-family: cursive;
+    font-size:15px;
+    font-weight: bold;
+}
+
+nav{
+     padding:25px;
+}
+
+
+a{
+    font-weight: bolder;
+    font-family:cursive;
+}
+
+ul, li{
+    visibility: hidden;
+}
+
+button{
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 600px)
+{
+  button{
+visibility: visible;
+  }
+
+ ul{
+  visibility:visible;
+ }
+
+  ul > li{
+      visibility: visible;
+    text-align:center;
+    border-bottom:1px solid white;
+}
+}
+
+h1{
+    padding:10px;
+    font-family: fantasy;
+}
+
+h4{
+    font-weight: bolder;
+    font-family:cursive;
+}
+
+p{
+    padding:10px;
+}
